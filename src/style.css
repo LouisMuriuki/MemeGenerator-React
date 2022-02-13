@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+nav{
+    position: relative;
+    display: flex;
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    align-items: center;
+    height: 65px;
+    color: whitesmoke;
+    padding: 20px ;
+    font-family: 'poppins',sans-serif;
+}
+
+nav>h3{
+    padding-left: 20px;
+    font-family: 'poppins',sans-serif;
+}
+nav>h6{
+    position: absolute;
+    font-family: 'poppins',sans-serif;
+    left: 90%;
+}
+.form{
+    padding: 50px;
+}
+.inputs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.inputs input{
+    width: 350px;
+    height: 50px;
+    border: 1px solid rgb(133, 129, 129);
+    border-radius: 10px;
+    margin: auto;
+    outline: none;
+    justify-content: space-evenly;
+    font-family: 'Poppins',sans-serif;
+
+}
+.inputs ::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+    font-family: 'Redressed',sans-serif;
+}
+button{
+    background-color: #a4508b;
+    background-image: linear-gradient(326deg, #a4508b 0%, #5f0a87 74%);
+    width: 50%;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+    margin-top: 50px;
+    height: 50px;
+    color: white;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'Poppins',sans-serif;
+}
+
+nav>img{
+    max-width: 100%;
+}
+.meme{
+    position: relative;
+    top: 10px;   
+} 
+.meme-images{
+    max-width: 100%;   
+    
+}
+.meme--text {
+    position: absolute;
+    width: 80%;
+    text-align: center;
+    margin: 15px 0;
+    padding: 0 5px;
+    font-family: impact, sans-serif;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow:
+        2px 2px 0 #000,
+        -2px -2px 0 #000,
+        2px -2px 0 #000,
+        -2px 2px 0 #000,
+        0 2px 0 #000,
+        2px 0 0 #000,
+        0 -2px 0 #000,
+        -2px 0 0 #000,
+        2px 2px 5px #000;
+}
+
+.bottom {
+    bottom: 0;
+}
+
+.top {
+    top: 0;
+}
+@media screen and (max-width:768px){
+    .inputs input{
+        height: 30px;
+        width: 120px;
+       
+    }
+    button{
+        font-size: 14px;
+    }
+    nav>h3{
+        padding-left: 10px;
+        font-size: 18px;
+    }
+    .meme--text{
+        font-size: 1.0rem;
+        left: 50%;
+       transform: translateX(-50%);
+    }
+}
