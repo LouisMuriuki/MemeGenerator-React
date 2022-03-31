@@ -73,9 +73,14 @@ nav>img{
 }
 .meme{
     position: relative;
+    display:flex;
+    justify-content:center;
+   align-items: center;
     top: 10px;   
 } 
 .meme-images{
+    position: relative;
+    
     max-width: 100%;   
     
 }
